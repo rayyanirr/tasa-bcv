@@ -1,0 +1,20 @@
+{
+  "name": "scrapper",
+  "version": "1.0.0",
+  "description": "a web scrapper",
+  "bin": "index.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Rayyanir Rosales",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "0.27.2",
+    "https": "^1.0.0",
+    "moment": "^2.29.4",
+    "pkg": "^5.8.0",
+    "puppeteer": "^19.7.5"
+  }
+}
